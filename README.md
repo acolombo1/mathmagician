@@ -1,73 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
+> This is an application to demonstrate the use of React and related technologies.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML5, CSS3, JavaScript ES6
+- React
+- Using GitHub, Git, GitFlow, VS Code
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+To get a local copy up and running follow these steps:
 
 ### Setup
 
-### Install
+- Clone the repository to your hard drive.
+- Use your browser of choice to see the results (./dist/index.html).
+- Execute npm install to install all packages and be able to make changes to the project.
+- Use Visual Code or another editor to edit individual files.
+### Future Live Demo
 
-### Usage
+[https://acolombo1.github.io/mathmagicians/dist/](https://acolombo1.github.io/mathmagicians/dist/)
+## Author
 
-### Run tests
+👤 **Aldo Colombo**
 
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
+- GitHub: [@acolombo1](https://github.com/acolombo1)
+- Twitter: [@aldocolombo](https://twitter.com/aldocolombo)
+- LinkedIn: [Aldo Colombo](https://www.linkedin.com/in/aldo-colombo-2156009)
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/acolombo1/mathmagicians/blob/develop/LICENCE) licensed.
