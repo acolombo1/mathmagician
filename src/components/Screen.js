@@ -1,11 +1,15 @@
 import React from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
 export default class Screen extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { result: 0 };
+  }
+
   render() {
+    const { result } = this.state;
     return (
-      // eslint-disable-next-line react/destructuring-assignment
-      <div className="screen">0</div>
+      <div className="screen">{result}</div>
     );
   }
 }

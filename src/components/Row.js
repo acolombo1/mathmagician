@@ -3,15 +3,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-// eslint-disable-next-line react/prefer-stateless-function
 export default class Row extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: 'row' };
+  }
+
   render() {
+    const { name } = this.state;
+    const {
+      but1, but2, but3, but4,
+    } = this.props;
     return (
-      <div className="row">
-        <Button name={`${this.props.but1}`} color="lightgray" />
-        <Button name={`${this.props.but2}`} color="lightgray" />
-        <Button name={`${this.props.but3}`} color="lightgray" />
-        <Button name={`${this.props.but4}`} color="orange" />
+      <div className={name}>
+        <Button name={`${but1}`} color="lightgray" />
+        <Button name={`${but2}`} color="lightgray" />
+        <Button name={`${but3}`} color="lightgray" />
+        <Button name={`${but4}`} color="orange" />
       </div>
     );
   }

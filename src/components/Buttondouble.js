@@ -1,12 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prefer-stateless-function
 export default class Buttondouble extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { pressed: false };
+  }
+
   render() {
+    const { color, name } = this.props;
+    const { pressed } = this.state;
+    if (pressed) { return false; }
     return (
-      // eslint-disable-next-line react/destructuring-assignment
-      <div className={`buttondouble ${this.props.color}`}>{ this.props.name }</div>
+      <div className={`buttondouble ${color}`}>{ name }</div>
     );
   }
 }

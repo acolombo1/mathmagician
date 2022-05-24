@@ -3,16 +3,16 @@ import Row from './Row';
 import LastRow from './LastRow';
 import Screen from './Screen';
 
-// eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends React.Component {
-  // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
+    this.state = { name: 'calculator' };
   }
 
   render() {
+    const { name } = this.state;
     return (
-      <div className="calculator">
+      <div className={name}>
         <Screen />
         <Row but1="AC" but2="+/-" but3="%" but4="÷" />
         <Row but1="7" but2="8" but3="9" but4="x" />
