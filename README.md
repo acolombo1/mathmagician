@@ -23,7 +23,7 @@ To get a local copy up and running follow these steps:
 - Use Visual Code or another editor to edit the individual files in the 'src' folder.
 ### Future Live Demo
 
-[https://acolombo1.github.io/mathmagicians/build/](https://acolombo1.github.io/mathmagicians/build/)
+[https://acolombo1.github.io/mathmagician/build/](https://acolombo1.github.io/mathmagician/build/)
 ## Author
 
 👤 **Aldo Colombo**
