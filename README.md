@@ -18,12 +18,12 @@ To get a local copy up and running follow these steps:
 ### Setup
 
 - Clone the repository to your hard drive.
-- Use your browser of choice to see the results (./dist/index.html).
-- Execute npm install to install all packages and be able to make changes to the project.
-- Use Visual Code or another editor to edit individual files.
+- Execute 'npm install' to install all packages in the 'dependencies' and 'devDependencies' sections of the 'package.json' file and be able to make changes to the project.
+- Execute 'npm start' to compile and view the page in a browser.
+- Use Visual Code or another editor to edit the individual files in the 'src' folder.
 ### Future Live Demo
 
-[https://acolombo1.github.io/mathmagicians/dist/](https://acolombo1.github.io/mathmagicians/dist/)
+[https://acolombo1.github.io/mathmagicians/build/](https://acolombo1.github.io/mathmagicians/build/)
 ## Author
 
 👤 **Aldo Colombo**
