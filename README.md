@@ -40,4 +40,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/acolombo1/mathmagician/blob/develop/LICENCE) licensed.
+This project is [MIT](https://github.com/acolombo1/mathmagician/blob/develop/MIT.md) licensed.
