@@ -1,15 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Screen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { result: 0 };
+    this.state = {};
   }
 
   render() {
-    const { result } = this.state;
+    const { obj } = this.props;
+    let numbertoshow = 0;
+    if (obj.next !== null) {
+      numbertoshow = obj.next;
+    } else if (obj.total !== null) { numbertoshow = obj.total; }
     return (
-      <div className="screen">{result}</div>
+      <div className="screen">{numbertoshow}</div>
     );
   }
 }
+Screen.propTypes = {
+  obj: PropTypes.shape({
+    total: PropTypes.string,
+    next: PropTypes.string,
+    operation: PropTypes.string,
+  }).isRequired,
+};
