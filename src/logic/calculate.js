@@ -58,7 +58,7 @@ export default function calculate(obj, buttonName) {
     }
     if (obj.total) {
       if (obj.total.includes('.')) {
-        return {};
+        return { ...obj };
       }
       return { ...obj, next: `${obj.total}.` };
     }
@@ -74,7 +74,7 @@ export default function calculate(obj, buttonName) {
       };
     }
     // '=' with no operation, nothing to do
-    return {};
+    return { ...obj };
   }
 
   if (buttonName === '+/-') {
