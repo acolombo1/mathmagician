@@ -1,39 +1,29 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
-export default class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.buttonclick = this.buttonclick.bind(this);
-    this.keypressed = this.keypressed.bind(this);
-  }
-
-  keypressed() {
-    this.buttonclick();
-  }
-
-  buttonclick() {
-    const { obj, name, bclick } = this.props;
+export default function Button(props) {
+  function buttonclick() {
+    const { obj, name, bclick } = props;
     const newobj = calculate(obj, name);
     bclick(newobj);
   }
 
-  render() {
-    const { width, color, name } = this.props;
-    return (
-      <div
-        className={`button${width} ${color}`}
-        onKeyPress={this.keypressed}
-        role="button"
-        tabIndex={0}
-        onClick={this.buttonclick}
-      >
-        { name }
-      </div>
-    );
+  function keypressed() {
+    buttonclick();
   }
+
+  const { width, color, name } = props;
+  return (
+    <div
+      className={`button${width} ${color}`}
+      onKeyPress={keypressed}
+      role="button"
+      tabIndex={0}
+      onClick={buttonclick}
+    >
+      { name }
+    </div>
+  );
 }
 Button.propTypes = {
   obj: PropTypes.shape({
