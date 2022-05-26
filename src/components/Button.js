@@ -3,9 +3,9 @@ import calculate from '../logic/calculate';
 
 export default function Button(props) {
   function buttonclick() {
-    const { obj, name, bclick } = props;
+    const { obj, name, liftUp } = props;
     const newobj = calculate(obj, name);
-    bclick(newobj);
+    liftUp(newobj);
   }
 
   function keypressed() {
@@ -32,7 +32,7 @@ Button.propTypes = {
     operation: PropTypes.string,
   }).isRequired,
 };
-Button.propTypes = { bclick: PropTypes.func.isRequired };
+Button.propTypes = { liftUp: PropTypes.func.isRequired };
 Button.propTypes = { name: PropTypes.string.isRequired };
 Button.propTypes = { color: PropTypes.string.isRequired };
 Button.propTypes = { width: PropTypes.string };
