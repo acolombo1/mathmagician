@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
+import Header from './components/Header';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -11,9 +12,17 @@ export default class App extends React.Component {
   render() {
     const { name } = this.state;
     return (
-      <div className={name}>
-        <Calculator />
-      </div>
+      <>
+        <Header />
+        <div className="calcContainer">
+          <h2 className="subtitle">
+            Let&apos;s do some Math!
+          </h2>
+          <div className={name}>
+            <Calculator />
+          </div>
+        </div>
+      </>
     );
   }
 }
