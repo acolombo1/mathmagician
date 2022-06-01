@@ -25,3 +25,43 @@ code {
     'Courier New',
     monospace;
 }
+
+.pageTitle {
+  margin: 20px;
+  padding: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  margin-right: 50px;
+}
+
+.subtitle {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.paragraph {
+  margin: 20px;
+  font-size: 1rem;
+}
+
+.calcContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 20px 0 20px;
+}
+
+.quote {
+  margin: 100px 50px;
+  font-size: 1.5rem;
+}

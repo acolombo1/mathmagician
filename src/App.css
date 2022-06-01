@@ -46,5 +46,10 @@
 .App {
   display: flex;
   justify-content: space-around;
-  padding-top: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .calculator {
+    zoom: 80%;
+  }
 }
