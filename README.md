@@ -21,9 +21,10 @@ To get a local copy up and running follow these steps:
 - Execute 'npm install' to install all packages in the 'dependencies' and 'devDependencies' sections of the 'package.json' file and be able to make changes to the project.
 - Execute 'npm start' to compile and view the page in a browser.
 - Use Visual Code or another editor to edit the individual files in the 'src' folder.
-### Future Live Demo
+### Live Demo
 
-[https://acolombo1.github.io/mathmagician/build/](https://acolombo1.github.io/mathmagician/build/)
+[https://mathmagician-acolombo1.herokuapp.com/](https://mathmagician-acolombo1.herokuapp.com/)
+[https://poetic-banoffee-b62d76.netlify.app/](https://poetic-banoffee-b62d76.netlify.app/)
 ## Author
 
 👤 **Aldo Colombo**
